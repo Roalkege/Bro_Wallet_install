@@ -1,8 +1,8 @@
 echo "************************************************"
-echo "*												 *"
-echo "*				      Bitradio					 *"
-echo "*					Wallet Setup				 *"
-echo "*												 *"
+echo "*												                       *"
+echo "*				         Bitradio					             *"
+echo "*				      	Wallet Setup				           *"
+echo "*												                       *"
 echo "************************************************"
 sleep 5
 echo "First of all we will install the dependencies"
