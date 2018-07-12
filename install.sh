@@ -1,9 +1,5 @@
-echo "************************************************"
-echo "*												                       *"
-echo "*				         Bitradio					              *"
-echo "*				      	Wallet Setup				           *"
-echo "*												                       *"
-echo "************************************************"
+
+echo "********************Bitradio Wallet install****************************"
 sleep 5
 echo "First of all we will install the dependencies"
 echo "Starting installing the dependencies, please do not close the window"
