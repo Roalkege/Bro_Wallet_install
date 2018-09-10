@@ -12,7 +12,7 @@ NC='\033[0m'
 echo -e "${RED}Starting the Wallet install!${NC}"
 
 
-
+sudo apt-get upgrade -y
 sudo apt-get install build-essential libtool automake autotools-dev autoconf pkg-config libssl-dev libgmp3-dev libevent-dev bsdmainutils -y
 sudo apt-get install libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-program-options-dev libboost-test-dev libboost-thread-dev -y
 sudo apt-get install libboost-all-dev -y
