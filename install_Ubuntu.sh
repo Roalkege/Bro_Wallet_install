@@ -41,7 +41,10 @@ cd
 git clone https://github.com/thebitradio/Bitradio.git
 cd Bitradio
 cd src && \
-make -f makefile.unix && \
+
+
+make -f makefile.unix # Headless
+
 
 sudo mkdir /root/.Bitradio
 echo "rpcuser=user"`shuf -i 100000-10000000 -n 1` >> /root/.Bitradio/Bitradio.conf
