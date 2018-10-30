@@ -40,10 +40,9 @@ sleep 15
 cd
 git clone https://github.com/thebitradio/Bitradio.git
 cd Bitradio
+
 cd src && \
-
-
-make -f makefile.unix # Headless
+make -f makefile.unix
 
 
 sudo mkdir /root/.Bitradio
